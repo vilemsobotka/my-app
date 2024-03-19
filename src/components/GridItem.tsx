@@ -6,7 +6,7 @@ type ItemProps = {
 }
 export default function GridItem(props:ItemProps){
     return(
-        <div className="content-center">
+        <div className="flex flex-col items-center">
         {props.icon}
         <p className="">{props.label}</p>
         </div>
